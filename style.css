@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  margin: 0;
+  font-size: 24px;
+  flex-grow: 1;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links li {
+  margin-left: auto;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.charging-station-container {
+  background-image: url("https://www.ecmag.com/images/default-source/bonotom/ec2305-may-2023/adobestock_585977851.tmb-art-detail.jpg?sfvrsn=6c494ccc_1");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.charging-station-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+#vehicle-segment {
+  margin-bottom: 25px;
+  height: 40px;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ddd;
+}
+
+input[type="number"],
+input[type="checkbox"],
+button {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer .container {
+  text-align: center;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#result {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
